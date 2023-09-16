@@ -448,27 +448,76 @@ aside {
     display: flex;
     justify-content: space-between;
   }
+
+  /*-------FAQ---------*/
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
 }
 
-/*-------FAQ---------*/
+@media only screen and (min-width: 1200px) {
+  /*Desktop*/
 
-.faq .content-wrapper {
-  justify-content: space-between;
-}
+  .content-wrapper {
+    width: 960px;
+  }
 
-.faq-content {
-  flex-basis: 45%;
-}
+  /*Header and Footer*/
 
-.faq h2 {
-  width: 100%;
-}
+  header {
+    padding: 15px 0;
+  }
 
-@media screen and (min-width: 1200px) {
-}
+  .hero-area h1 {
+    width: 70%;
+  }
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+  aside .content-wrapper {
+    justify-content: space-between;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /*Features*/
+
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 30%;
+  }
+
+  /*Reviews*/
+
+  .reviews article div {
+    width: 42%;
+  }
+
+  /*---------------About-------------------*/
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 55%;
+  }
+
+  /*---------------FAQ-----------------*/
+
+  .faq h2 {
+    width: 100;
+  }
 }
 
 @media print,

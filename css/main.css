@@ -108,11 +108,14 @@ body {
 
 h2 {
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.875em;
 }
 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
+  font-weight: ;
 }
 
 a {
@@ -150,6 +153,24 @@ address {
   font-style: normal;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.reviews article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews article figure,
+.reviews article div {
+  width: 49%;
+}
+
 /*-----------------------Header and Footer -------------------------*/
 
 header {
@@ -175,7 +196,7 @@ header .content-wrapper {
 }
 
 header nav {
-  width: 100%;
+  width: 60%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
@@ -185,6 +206,18 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+header nav ul li {
+  font-size: 1.125em;
+}
+
+header figure {
+  width: 60%;
+}
+
+header img {
+  width: 60%;
 }
 
 footer {
@@ -228,6 +261,9 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  background: url("../unplugged-retreat.jpg") center no-repeat;
+  background-size: cover;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -274,6 +310,8 @@ input[type="button"] {
 .features {
   display: flex;
   justify-content: center;
+  background: url("../unplugged-retreat-features.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
@@ -293,7 +331,7 @@ input[type="button"] {
 
 .features p {
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
 /*-----------------------Reviews----------------------*/
@@ -313,6 +351,7 @@ input[type="button"] {
   width: 50%;
   margin: 20px 0;
 }
+
 /*-----------------------About----------------------*/
 
 .mission {

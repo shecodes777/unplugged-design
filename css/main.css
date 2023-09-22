@@ -370,6 +370,22 @@ input[type="button"] {
   margin: 0;
 }
 
+.map figure {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 125%;
+  width: 100%;
+  height: 0;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /*-----------------------FAQ----------------------*/
 
 .faq {
@@ -398,6 +414,7 @@ input[type="button"] {
 .faq-content h4 {
   line-height: 1.3;
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -646,19 +663,7 @@ input[type="button"] {
   }
 
   .map figure {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 125%;
-    width: 100%;
-    height: 0;
-  }
-
-  .map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    padding-bottom: 54%;
   }
 
   /*-------FAQ---------*/
@@ -761,6 +766,10 @@ input[type="button"] {
 
   .contact-content h4 {
     font-size: 1.875em;
+  }
+
+  .map figure {
+    padding-bottom: 46.88%;
   }
   /*---------------FAQ-----------------*/
 

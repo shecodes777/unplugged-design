@@ -238,7 +238,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -256,6 +256,20 @@ footer .copyright {
   margin: 20px 0;
 }
 
+footer .social-icons p i {
+  font-size: 1.5em;
+}
+
+footer .social-icons p {
+  background: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons p a {
+  background-color: transparent;
+}
 /*--------------------------Hero------------------------*/
 
 .hero-area {
@@ -637,6 +651,10 @@ input[type="button"] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
   }
 
   /*-----About page------*/
